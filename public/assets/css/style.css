@@ -1,0 +1,44 @@
+.gm-style .gm-style-mtc label, .gm-style .gm-style-mtc div {
+  font-weight: 400
+}
+.gm-style .gm-style-cc span, .gm-style .gm-style-cc a, .gm-style .gm-style-mtc div {
+  font-size: 10px
+}
+@media print {
+  .gm-style .gmnoprint, .gmnoprint {
+    display: none
+  }
+}
+
+@media screen {
+  .gm-style .gmnoscreen, .gmnoscreen {
+    display: none
+  }
+}
+.gm-style {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  text-decoration: none
+}
+
+.gm-style img {
+  max-width: none
+}
+
+.text-overflow {
+  width:250px;
+  height:150px;
+  display:block;
+  overflow:hidden;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+.text-overflow div {
+  padding: 10px;
+}
+
+.btn-overflow {
+  text-decoration: none;
+}

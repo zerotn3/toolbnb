@@ -1,0 +1,406 @@
+extends layout
+
+block content
+  #home.navbar-wrapper.home.sticky
+    nav.navbar.navbar-inverse.navbar-static-top
+      .container
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+            span.sr-only Menu
+            span.icon-bar.bar1
+            span.icon-bar.bar2
+            span.icon-bar.bar3
+          a.navbar-brand(href='/')
+            img.img-responsive(alt='Khởi Nghiệp Online', src='/assets/images/knol.png')
+        #navbar.navbar-collapse.collapse
+          ul.nav.navbar-nav(data-menu='')
+            li.active
+              a(title='CÂU CHUYỆN CỦA TÔI', data-scroll-to='', href='#') CÂU CHUYỆN CỦA TÔI
+            li
+              a(title='THÔNG TIN KHÓA HỌC', data-scroll-to='', href='#content4') THÔNG TIN KHÓA HỌC
+            li
+              a(title='ĐĂNG KÝ NGAY', href='#') ĐĂNG KÝ NGAY
+  .banner.container
+    #myCarousel.carousel.slide(data-ride='carousel')
+      ol.carousel-indicators.hidden
+        li.active(data-target='#myCarousel', data-slide-to='0')
+      .carousel-inner(role='listbox', data-height-full='', style='height: 473px; margin-top: 124px;')
+        .item.active
+          a(href='#', title='Khởi Nghiệp Online')
+            img.img-responsive.hidden-xs(alt='Khởi Nghiệp Online', src='/assets/images/banner_web.jpg')
+            img.img-responsive.hidden-sm.hidden-md.hidden-lg(alt='Khởi Nghiệp Online', src='/assets/images/banner_mobile.jpg')
+      a.left.carousel-control.hidden(href='/#myCarousel', role='button', data-slide='prev')
+        span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+        span.sr-only Previous
+      a.right.carousel-control.hidden(href='/#myCarousel', role='button', data-slide='next')
+        span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+        span.sr-only Next
+  .content1
+    .container
+      .row
+        .col-md-5.col-sm-5
+          img.img-responsive(alt='Khởi Nghiệp Online', src='/assets/images/img1-content1.png')
+        .col-md-7.col-sm-7.style-mb-1
+          h3.title.title-block
+            | Muốn giàu hãy trở thành một ông chủ
+            span CHAVICH BUI
+          p.setwidth
+            | Đây là một tư tưởng Tôi được định hình khi bắt đầu khởi nghiệp năm 2012, lúc đó Tôi 23 tuổi , là sinh viên năm cuối khoa quản trị kinh doanh tổng hợp _ Trường Đại Học Kinh Tế TP.HCM (K34)
+          h4.title Nhưng lúc đó tôi nghĩ
+          ul.list-unstyled
+            li Làm thế nào mình có thể trở thành một ông chủ giàu có và thành đạt, trong khi mình có xuất phát điểm là con tronng một gia đình nông dân nghèo tại xã miền núi  Gia An – Tánh Linh – Bình Thuận , với Tuổi thơ lớn lên 10 năm  một buổi chăn trâu , một buổi cắp sách đến trường từ năm 7 tuổi mãi cho đến lớp 12
+            li Làm thế nào mình có thể trở thành một ông chủ  sở hữu công việc kinh doanh của riêng mình, có nguồn thu nhập vài chục triệu, vài trăm triệu và có thể nhân lên theo thời gian thành vài tỷ và hơn thế như bao doanh nhân thành đạt khác tại Việt Nam và trên thế giới. Trong khi mối quan hệ mình không có ai làm được điều mình khao khát. Với một chàng  trai tỉnh lẻ lên Sài Gòn, trông bên ngoài rất lúa và quê mùa, kiến thức và kinh nghiệm về Khởi nghiệp thì hoàn toàn không có
+            li Làm thế nào để tìm kiếm được khách hàng khi mình chỉ là một chàng thanh niên miền núi
+            li Làm thế nào để mình có một sản phẩm tốt để kinh doanh, khi nguồn vốn mình không có nhiều ngoài một nguồn vốn dồi dào mình có ở tuổi 22- 23 đó là MỘT KHÁT KHAO LÀM GIÀU CHÁY BỔNG  kèm theo thời gian, sức khỏe của tuổi trẻ
+            li Làm thế nào, nếu mình có sản phẩm thì cách thức nào để đưa  được sản phẩm của mình đến thật nhiều khách hàng
+            li Cách tạo ra doanh thu lớn vài tỷ thậm chí vài triệu đô từ sản phẩm của mình, trong khi mình không có quá nhiều vốn và không ai đỡ đầu
+            li Làm sao? cách nào để mình thiết kế và phát triển 1 sản phẩm mà thị trường đang cần để kinh doanh
+            li Làm sao để gọi vốn và tăng quy mô của doanh nghiệp hay xây dựng đội ngũ nhân sự phát triển công việc kinh doanh cùng mình
+
+      .row
+        .col-md-12.margin-t-b
+          p
+            | Hàng loạt CÂU HỎI Tôi đặt ra cho chính mình, mãi vẫn không có câu trả lời, nhưng Tôi vẫn muốn chạm tới GIẤC MƠ TRỞ THÀNH MỘT ÔNG CHỦ THÀNH ĐẠT VÀ GIÀU CÓ, được đi du lịch vòng quanh thế giới, có nguồn thu nhập thụ động đủ lớn để có một cuộc sống, một cuộc đời mà Tôi mơ ước  và Tôi đã tìm  được  câu trả lời:
+      .row
+        .col-md-7.col-sm-7
+          h4.title.title2
+            | KHỞI NGHIỆP TRỞ THÀNH MỘT ÔNG CHỦ THÀNH ĐẠT LÀ MỘT KỸ NĂNG CÓ THỂ HỌC ĐƯỢC:
+          ul.list-unstyled
+            li Và Tôi đã tìm thấy câu trả lời cho các câu hỏi:
+            li Kế hoạch thiết kế và phát triển một sản phẩm ra sao?
+            li Làm thế nào để xác định được khách hàng của bạn là ai? Họ ở đâu?
+            li Giá trị mang lại cho khách hàng của mình là gì?
+            li Làm thế nào để đưa được sản phẩm tới tay khách hàng một cách nhanh nhất và hiệu quả nhất?
+            li Cách tạo ra doanh thu khổng lồ và lợi nhuận cao từ sản phẩm của doanh nghiệp mình?
+            li Làm sao để gọi vốn và tăng quy mô của doanh nghiệp?
+            li Làm sao để xây dựng đội ngũ nhân sự giỏi cùng mình phát triển và nâng tầm doanh nghiệp?
+        .col-md-5.col-sm-5
+          img.img-responsive(alt='Khởi Nghiệp Online', src='/assets/images/img2-content1.png')
+      .row
+        .col-md-12.margin-t
+          p
+            | Và tất nhiên để thực hiện được giấc mơ trở thành một ông chủ thành đạt, tự do đi du lịch vòng quanh thế giới không hề dễ dàng chút nào và không phải ai muốn cũng làm được
+          p
+            | NHƯNG một chàng trai xuất than 10 năm đi chăn trâu nơi miền núi thơ mộng Xã Gia An – Huyện Tánh Linh – Tỉnh Bình Thuận,  ít vốn, ít kinh nghiệm, ít mối qua hệ lại có thể thực hiện được giấc mơ của mình trong vòng 4 NĂM  thực hiện trên 200 chuyến bay,  đi du lịch vòng quanh thế giới đặt chân đến trên 10 quốc gia và vùng lãnh thổ
+  .content2
+    .container
+      .row
+        .col-md-12
+          h4.title ﻿Với tuổi đời 27 tuổi với những năm tháng thăng trầm học hỏi Tôi dần dần từng bước khởi đầu cho những giấc mơ của mình:
+          p.style-2
+            strong
+              | Sáng lập và điều hành: CÔNG TY CỔ PHẦN GIÁO DỤC BENGLISH với các dự án:
+      .row.video-block
+        .col-md-3.col-sm-3
+          img(src="/assets/images/intro/1.JPG", style="width:100%;height:160px")
+          p.text-center
+            strong Benglish.vn - Tiếng Anh Giao Tiếp Chuẩn
+          .text-overflow
+            div
+              | Mô Hình NHÓM HỌC ÍT NGƯỜI luyện giao tiếp & phản xạ tiếng Anh TRỰC TIẾP 100% GV Bản Ngữ : ANH - ÚC - MỸ.
+              br
+              a(href='http://benglish.vn/') http://benglish.vn/
+              br
+              a(href='https://www.facebook.com/benglishvn') https://www.facebook.com/benglishvn
+          .text-center
+            a.btn-overflow.less(href='javascript:void(0)')
+              | Xem thêm &nbsp;
+              i.fa.fa-angle-down
+
+        .col-md-3.col-sm-3
+          img(src="/assets/images/intro/2.JPG", style="width:100%;height:160px")
+          p.text-center
+            strong Uberenglish.vn - Tiếng Anh 1 kèm 1
+          .text-overflow
+            div
+              | Mô hình Uberenglish.vn là mô hình học trực tuyến đầu tiên tại việt nam phát triển theo nền tảng công nghệ SHARING ECONOMY là kết nối với các giáo viên trên toàn thế giới dạy học cho người có nhu cầu học tiếng anh thông qua Uberenglish.vn giúp cho việc học tiếng anh trực tiếp từ người bản ngữ trở nên đơn giản hơn bao giờ hết , Với sứ mệnh nâng tầm tri thức việt nam trong thời đại nền kinh tế mở, Hãy nói tiếng anh như người bản xứ và đó là con đường ngắn nhất đưa bạn đến cánh cửa của những cơ hội . hãy đến Uberenglish.vn và sống phần đời còn lại với tiếng anh như một người bản xứ
+              br
+              a(href='http://uberenglish.vn') http://uberenglish.vn
+          .text-center
+            a.btn-overflow.less(href='javascript:void(0)')
+              | Xem thêm &nbsp;
+              i.fa.fa-angle-down
+
+        .col-md-3.col-sm-3
+          img(src="/assets/images/intro/4.JPG", style="width:100%;height:160px")
+          p.text-center
+            strong Ubergiasu.vn - Gia Sư 1 kèm 1
+          .text-overflow
+            div
+              | với sứ mệnh nâng tầm tri thức Việt, giúp cho các e học sinh trên mọi miền tổ quốc có thể học trực tiếp từ các Giáo Viên, Gia Sư giỏi tận tâm và nhiều kinh nghiệm trên toàn quốc , rút ngắn khoảng cách địa lý về nền tri thức Việt Nam
+              br
+              a(href='http://ubergiasu.vn') http://ubergiasu.vn
+          .text-center
+            a.btn-overflow.less(href='javascript:void(0)')
+              | Xem thêm &nbsp;
+              i.fa.fa-angle-down
+
+        .col-md-3.col-sm-3
+          img(src="/assets/images/intro/4.JPG", style="width:100%;height:160px")
+          p.text-center.max-width
+            strong THAYTRO.VN - Trang Website Học Trực Tuyến
+          .text-overflow
+            p - Cung cấp phương tiện học tập tốt nhất cho các bạn học sinh trong cả nước, các bạn có thể học mọi nơi, mọi lúc, chỉ cần một cái "click" chuột.
+            p - Giúp các bạn học sinh học cùng các thầy cô uy tín nhất, giỏi nhất.
+            p - Mỗi tuần chúng tôi sẽ cập nhật nhiều bài giảng mới thuộc tất cả các môn học.
+            p - Trong thời gian tới sau khi hoàn thành chương trình THPT chúng tôi sẽ xây dựng tiếp chương trình THCS và nhiều chương trình học tập bổ ích khác.
+            p - THAYTRO.VN sẽ không ngừng bổ sung và hoàn thiện chương trình để đem đến sản phẩm giáo dục tốt nhất phục vụ các bạn học sinh trong cả nước
+          .text-center
+            a.btn-overflow.less(href='javascript:void(0)')
+              | Xem thêm &nbsp;
+              i.fa.fa-angle-down
+      .row
+        .col-md-12
+          h4.title.title-style
+            | VẬY BÍ QUYẾT ĐÓ LÀ GÌ? LÀM THẾ NÀO ĐỂ TỪ BÌNH THƯỜNG TRỞ THÀNH MỘT ÔNG CHỦ THÀNH ĐẠT VÀ GIÀU CÓ
+          p.margin-b
+            | “Nếu trên cuộc đời này có một người nào đó làm được và họ sẵn sàng dạy cho mình cách làm được như họ thì mình có thể làm được và làm tốt hơn”
+          p
+            | Rất đơn giản! thời đại này! INTERNET đã tạo ra thế giới phẳng và Bạn có thể học bất kỳ nơi đâu, với bất kỳ nhà đào tạo nào hoặc có thể kết nối trở thành bạn bè và học hỏi từ những doanh nhân thành đạt trên toàn thế giới. Bạn có thể tiếp cận và đưa sản phẩm , dịch vụ và công ty của bạn đến với  hơn 90 triệu dân Việt Nam và hơn 7 tỷ dân trên thế giới . Và Tôi chia sẽ cho Bạn BÍ MẬT KINH ĐIỂN VỀ KHỞI NGHIỆP – 24 BƯỚC KHỞI NGHIỆP ĐỂ THÀNH CÔNG trong chương trình:
+          h4.title.title-style
+            | “TỪ BÌNH THƯỜNG TRỞ THÀNH MỘT ÔNG CHỦ THÀNH ĐẠT”
+          p
+            | SAU 5 NĂM TRẢI QUA RẤT NHIỀU LĨNH VỰC KINH DOANH VỚI NHỮNG VAI TRÒ KHÁC NHAU TỪ MỘT NHÂN VIÊN TIẾP THỊ BÁNG HÀNG , MỘT GIÁM ĐỐC KINH DOANH & MARKETING CHO MỘT CÔNG TY THIẾT KẾ WEB VÀ PHẦN MỀM Ở TUỔI ĐỜI 22 ,  MỘT DOANH NHÂN QUỐC TẾ ĐƯỢC CÔNG NHẬN Ở SÂN KHẤU QUỐC TẾ 60.000 NGƯỜI  ĐẾN TỪ 40 QUỐC GIA THAM DỰ , MỘT NHÀ ĐÀO TẠO , MỘT DIỄN GIẢ ĐÀO TẠO HUẤN LUYỆN VỚI SÂN KHẤU TRÊN 10.000 NGƯỜI KHI TUỔI ĐỜI CHƯA  TỚI 30 TUỔI , MỘT NHÀ SÁNG LẬP VÀ ĐIỀU HÀNH CÁC DỰ ÁN GIÁO DỤC ỨNG DỤNG CÔNG NGHỆ PHÁT  TRIỂN KHÔNG  GIỚI HẠN VỀ THỜI GIAN VÀ KHÔNG GIAN NÂNG TẦM DOANH NGHIỆP VỚI QUY MÔ TOÀN CẦU ……..
+          p
+            | Vào một buổi tối, Tôi được học và thấu hiểu một triết lý từ 1 người Anh, một người thầy của tôi: “Cho trước nhận sau, Tại sao em phải chờ mình trở thành doanh nhân  thành đạt tầm cỡ như Bầu Đức của HAGL  hay Anh Đặng Lê Nguyên Vũ  ông chủ của chuỗi cà phê TRUNG NGUYÊN rồi mới chia sẽ giúp mọi người khởi nghiệp kinh doanh, trong khi KHỞI NGHIỆP KINH DOANH là một môn học, là một kỹ năng hoàn toàn có thể học và truyền dạy lại được. Tại sao em phải đợi mà không phải là NGÂY BÂY GIỜ?  WHY NOT? “
+          h4.title.title-style
+            | Cuộc sống này sẽ tốt đẹp hơn nếu người VIỆT NAM khi nói về khởi nghiệp kinh doanh:
+          ul.list-unstyled
+            li Người biết ít chia sẽ cho người không biết
+            li Người biết nhiều chia sẽ cho người biết ít
+            li Người chuyên gia chia sẽ cho người biết nhiều
+            li Người chuyên gia cấp cao chia sẽ cho chuyên gia
+          h4.title.title-style
+            | Vì KHỞI NGHIỆP KINH DOANH LÀ MỘT MÔN HỌC, MỘT KỸ NĂNG CÓ THỂ TRUYỀN DẠY ĐƯỢC
+          p
+            | Từ đêm hôm đó Tôi trăn trở rất nhiều Vì Tôi không khẳng định  hay nhận mình là chuyên gia , chuyên gia cấp cao trong BỘ MÔN KHỞI NGHIỆP KINH DOANH với số vốn ít ỏi nhưng mang lại hiệu quả cao
+          h4.title.title-style
+            | NHƯNG MỘT THỰC TẾ CHỈ RA RẰNG:
+          p
+            | Hơn 90 TRIỆU dân Việt Nam có rất nhiều người không biết gì về KHỞI NGHIỆP KINH DOANH trong khi ai cũng thuộc lòng câu nói của chính ông bà ta từ ngàn xưa: “PHI THƯƠNG BẤT PHÚ”
+          p
+            | Hay có nhiều người biết và thấu hiểu rõ “PHI THƯƠNG BẤT PHÚ”, họ khao khát khởi nghiệp kinh doanh để trở thành một ông chủ giàu có và thành đạt nhưng không biết bắt đầu từ đâu? và làm như thế nào để TỪ BÌNH THƯỜNG CÓ THỂ TRỞ THÀNH ÔNG CHỦ GIÀU CÓ VÀ THÀNH ĐẠT
+          br
+      .row
+        .col-md-7
+          .slider
+            #slider1.carousel.slide(data-ride='carousel')
+              ol.carousel-indicators.hidden
+                li(data-target='#slider1', data-slide-to='0')
+              .carousel-inner(role='listbox')
+                .item
+                  img.img-responsive(alt='Khởi Nghiệp Online', src='/assets/images/hinh_dao_tao.jpg')
+                .item
+                  img.img-responsive(alt='Khởi Nghiệp Online', src='/assets/images/hinh_dao_tao.jpg')
+                .item.active
+                  img.img-responsive(alt='Khởi Nghiệp Online', src='/assets/images/hinh_dao_tao.jpg')
+              a.left.carousel-control.hidden(href='/#slider1', role='button', data-slide='prev')
+                span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+                span.sr-only Previous
+              a.right.carousel-control.hidden(href='/#slider1', role='button', data-slide='next')
+                span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+                span.sr-only Next
+        .col-md-5
+          h4.sub-title NHƯNG ĐIỀU TÔI TRĂN TRỞ LÀ:
+          ul.list-unstyled.list-plus
+            li
+              | Làm thế nào để các bạn có thể học và ứng dụng ngay để ra kết quả? Vì theo quan điểm của Tôi “
+              span.color-yellow Học là để làm, học để trở thành chứ không phải học để biết
+              | ”
+            li Làm thế nào để bạn học với chi phí thấp nhất nhưng vẫn đạt được chất lượng cao nhất?
+            li Làm thế nào để tất cả mọi người học đều áp dụng và thành công?
+            li Bởi khao khát của cuộc đời Tôi là làm giáo dục với tinh thần CỐNG HIẾN – PHỤNG SỰ - PHỤC VỤ - YÊU THƯƠNG – BÌNH AN – HẠNH PHÚC
+            li Đóng góp giá trị thiết thực cho xã hội chứ không đơn giản là một công việc kinh doanh
+            li Làm thế nào để tất cả mọi người học đều áp dụng làm ngay tại lớp học và đạt được mục tiêu của mỗi người?
+          p.margin-t-4
+            strong
+              i
+                | Đó thực sự là những câu hỏi khó, là thách thức lớn, bởi quan điểm của Tôi: “ Khi Chọn con đường làm giáo dục Nếu mình làm không tốt, không hiệu quả, không đạt chất lượng thì sẽ không chỉ ảnh hưởng tới uy tín của chính bản thân mà còn ảnh hưởng tới cả một đời người”
+      .row
+        .col-md-12.block-6-million
+          h4.title VÀ SAU NHIỀU NGÀY NHIỀU ĐÊM THAO THỨC SUY NGHĨ VÀ TRĂN TRỞ TÔI ĐÃ TÌM RA MỘT GIẢI PHÁP CHO DỰ ÁN:
+          p “TỪ BÌNH THƯỜNG TRỞ THÀNH MỘT ÔNG CHỦ GIÀU CÓ VÀ THÀNH ĐẠT”
+          p Tôi đã kết nối và ngồi lại với những anh chị doanh nhân thành đạt có tâm huyết với giáo dục và đào tạo đủ TÂM & TẦM chúng Tôi sẽ tuyển CHỌN những bạn thực sự khát khao thành công với KHỞI NGHIỆP MỘT DOANH NGHIỆP KINH DOANH thành công với đại thế giới phát triển không ngừng theo từng giây, đặc biệt là công nghệ số , công nghệ internet  phát triển
+          h4.title MỘT THỰC TẾ:
+          p Bất kỳ ngành nghề, lĩnh vực nào muốn thành công không riêng gì KHỞI NGHIỆP KINH DOANH đều cần một con người đủ khát khao, dám nghĩ, dám làm, không ngừng nổ lực học hỏi phát triển bản thân và làm việc với tinh thần của một chiến binh thực thụ, luôn kiên trì tìm ra giải pháp khi gặp vấn đề khó khăn và trở ngại  và trong từ điển của họ không có hai từ BỎ CUỘC
+          p Và ĐIỀU QUAN TRỌNG KHÔNG THUA KÉM NHỮNG ĐIỀU TRÊN ĐÓ LÀ: Các chiến lược kinh doanh cụ thể nhất với từng năng lực xuất phát điểm khả năng của từng người, phương pháp, kế hoạch chi tiết cách thức để KHỞI NGHIỆP KINH DOANH thành công thì chúng Tôi và cộng sự đã có và được chứng minh.
+          p.area-triangle
+            i
+            | Nấc thang đầu tiên bạn cần phải có đó là
+            span(style="margin-left:5px") 9,000,000 VNĐ
+            |  - Tiền đến với lớp học.
+      .row.set-position
+        .col-md-4.col-sm-4
+          .block.block1
+            p.sologan-6-million
+              | 9,000,000 VNĐ. THỰC SỰ LÀ CÁCH ĐỂ THỂ HIỆN RẰNG BẠN NGHIÊM TÚC VỚI LỚP HỌC NÀY VÌ:
+          .block.block2
+            p.text-uppercase.font-14
+              i
+                | Khi đến lớp học trong một tháng Chúng Tôi và cộng sự chia sẽ đầy đủ tất cả kiến thức kinh nghiệm kỹ năng về KHỞI NGHIỆP KINH DOANH đặc biệt là các kỹ năng tư duy khởi nghiệp trong thời đại bùng nổ internet, trong khóa học này ekip của chúng Tôi sẽ chuyển tiếp đến bạn từng chút một từng chút một không thiếu một tí gì về kiến thức tư duy kỹ năng khởi nghiệp một doanh nghiệp kinh doanh cả về marketing online và ofline
+                | (Bạn xem kỹ nội dung khóa học phía dưới)
+            p.text-uppercase.font-14
+              i CHÚNG TÔI TỔ CHỨC BUỔI HỌC THỬ 1 BUỔI.
+            p.color-yellow.font-14
+              i
+                | (Chúng Ta Sẽ Cùng Chia Sẻ Tiền Thuê Phòng Học Là 200,000 VNĐ/ Vé - Vé đi được 2 người)
+        .col-md-8.col-sm-8
+          .item
+            span 01
+            p
+              | Khi đến với lớp học trong 1 tháng này chúng tôi chia sẻ đầy đủ không thiếu 1 chút gì về Facebook Marketing trong 2 ngày tập trung (Bạn hãy xem kỹ nội dung 2 ngày học ở phía dưới).
+          .item
+            span 02
+            p
+              | Sau khi học và hoàn thành khóa học chúng Tôi và cộng sự có “COACH” kèm bạn mỗi ngày để hướng dẫn chi tiết hỗ trợ bạn khởi nghiệp kinh doanh cho đến khi thành công (tức là kinh doanh có lợi nhuận)
+          .item
+            span 03
+            p
+              | Bạn nhận sự hỗ trợ từ không phải 1 người mà cả một đội ngũ, một team, một cộng đồng BUSINESS START UP đến trọn đời và suốt hành trình bạn khởi nghiệp và xây dựng doanh nghiệp kinh doanh thành công.
+              | (Bạn nghĩ và tính xem Bạn sẽ mất bao nhiêu tiền để có được sự hỗ trợ này)
+          .item
+            span 04
+            p
+              | Mỗi tuần khi có update mới từ kiền thức kinh doanh online , marketing online hay ofline cho việc phát triển thành công doanh nghiệp của chính bạn chúng Tôi sẽ hỗ trợ cập nhật và hướng dẫn bạn tiếp tục hoàn toàn miễn phí đến trọn đời
+          .item
+            span Và đặc biệt
+            p
+              | Khi bạn khởi nghiệp kinh doanh thành công kể cả từ mảng kinh doanh online trên facebook, hay offline với lợi nhuận mỗi tháng ít nhất 50.000.000 VNĐ từ chính công việc kinh doanh bạn khởi nghiệp đội ngũ chuyên gia của chúng Tôi cùng cộng sự sẽ hướng dẫn google ad, zalo marketing, youtube marketing, email marketing, marketing đường phố, chiến lược bán hang đột phá tăng 300% doanh số và lợi nhuận
+            p HOÀN TOÀN MIỄN PHÍ vì lúc này bạn đã là một doanh nhân khởi nghiệp HỌC THẬT LÀM THẬT thì không lý do gì chúng tôi không chia sẽ miễn phí cho bạn để chúng ta có thể kết nối hợp tác cùng nhau. Còn 9 Triệu VNĐ ban đầu này chỉ đơn giản để đánh giá sự nghiêm túc của Bạn
+            p Để giúp Bạn có được trải nghiệm trước khi đưa ra quyết định đến với sự nghiệp kinh doanh của riêng mình với chương trình:
+            h4.title TỪ BÌNH THƯỜNG TRỞ THÀNH MỘT ÔNG CHỦ THÀNH ĐẠT VÀ GIÀU CÓ
+            p Chúng Tôi tổ chức buổi học thử 1 buổi (chúng ta cùng chia sẽ tiền thuê phòng học là 200.000 VNĐ (hai tram ngàn Việt Nam đồng) – vé đi được hai người
+  .content3
+    .container
+      .row.margin-b
+        .col-md-12
+          h4.title Và Bây Giờ Đến Lượt Bạn
+          p
+            span.color-yellow
+              | NẾU BẠN MUỐN HỌC VÀ LÀM NGAY ĐỂ CÓ KẾT QUẢ NGAY THÌ HÃY ĐĂNG KÍ THAM GIA NGAY LÚC NÀY CÙNG CỘNG ĐỒNG  KHỞI NGHIỆP ONLINE . VN để cùng chúng Tôi kiến tạo một thế hệ BUSINESS START UP VIỆT NAM vươn ra toàn cầu để khẳng định vị thế BUSINESS START UP VIỆT NAM trên thế giớiCuộc chơi này CHỈ DÀNH CHO NHỮNG NGƯỜI THỰC SỰ ĐAM MÊ, THỰC SỰ KHAO KHÁT MUỐN CHẠM ĐẾN “THẾ GIỚI CỦA DOANH NHÂN THÀNH ĐẠT VÀ GIÀU CÓ”.
+            span.color-yellow
+              | Cuộc chơi này CHỈ DÀNH CHO NHỮNG NGƯỜI THỰC SỰ ĐAM MÊ, THỰC SỰ KHAO KHÁT MUỐN CHẠM ĐẾN
+              strong “THẾ GIỚI CỦA DOANH NHÂN THÀNH ĐẠT VÀ GIÀU CÓ”
+              | .
+        .col-md-5.margin-t-4.col-sm-5
+          .border-area
+            p.text-uppercase QUÀ TẶNG CHO 50 NGƯỜI ĐẦU TIÊN
+            ul.list-unstyled.list-plus
+              li + Bộ DVD facebook marketing từ A đến Z, từ lý thuyết đến thực hành (27 Video)- trị giá 6.000.000 VNĐ
+              li + Bộ DVD cách kiếm 5.000 $ /tháng từ facebook marketing – trị giá 45.000.000 VNĐ
+              li + Bộ 10 Ebook “Tư Duy – Kỹ Năng Làm Giàu” từ các diễn giả nhà đào tạo doanh nhân nổi tiếng thế giới trị giá 2.000.000VNĐ
+              li + Bộ DVD kỹ thuật tạo trang đích và bám đuổi khách hàng truy cập và website để lại thong tin trị giá 1.500.000VNĐ
+        .col-md-1.margin-t-4.col-sm-1
+          i.border-div(style='height: 273px;')  
+        .col-md-6.form-regis.col-sm-6
+          p.hotline HOTLINE : 0888116618
+          a.area-triangle.regis(href='/', title='Đăng Ký Ngay')
+            i
+            | Đăng ký ngay
+          p.text-left
+            i
+              span.biger-font 200,000 VNĐ / Vé
+              |  - Dành cho hai người chỉ dành cho 50 người đăng kí đầu tiên, từ người thứ 51 trở về sau mỗi vé là 500.000 VNĐ để trải nghiệm 1 buổi học trước khi quyết định
+  #content4.content4
+    .container
+      h4.title THÔNG TIN KHÓA HỌC
+      .row.marginBot-30
+        .col-md-6
+          span.title-item buổi 1
+          .block-grub(data-set-height='', style='height: 436px;')
+            ul.list-unstyled.list-plus
+              li Tổng quan về marketing online và thị trường việt nam
+              li Cách tìm thị trường ngách, đánh giá và xác định kênh phân phối hiệu quả
+              li Tìm sản phẩm, nguồn hàng và quy trình đàm phán với bên cung cấp và vận chuyển
+              li Facebook Marketing Plan
+              li Zalo Marketing Plan
+              li Chiến lược phát triển nội dung bán hàng khiến khách hàng mua ầm ầm
+              li Chiến lược phát triển nội dung viral, tương tác
+        .col-md-6.style-mb-3
+          span.title-item buổi 2
+          .block-grub(data-set-height='', style='height: 436px;')
+            ul.list-unstyled.list-plus
+              li Cách tìm kiếm và lựa chọn sản phẩm dành cho thị trường online
+              li Những đặc tính mua hàng trong thị trường hiện tại mà bạn cần nắm được
+              li Cách thiết kế nội dung bán hàng, content giật tít cho sản phẩm tiềm năng
+              li Công cụ tiếp cận khách hàng giàu và thị trường quốc tế tiềm năng
+      .row.marginBot-30
+        .col-md-6
+          span.title-item buổi 3
+          .block-grub(data-set-height2='', style='height: 264px;')
+            ul.list-unstyled.list-plus
+              li Cách đọc báo cáo và tối ưu các quy trình trong quảng cáo để giảm thiểu chi phí và gia tăng lợi nhuận.
+              li Chiến lược phát triển mô hình nhượng quyền online cho doanh nghiệp của bạn ở Việt Nam và Thế giới.
+              li Cách xây dựng ekip bán online doanh thu 2-3 tỷ/ tháng chỉ với 3-5 người.
+              li Kỹ năng làm việc nhóm, xây dựng đội nhóm, kỹ năng leader phát triển mô hình kinh doanh online
+        .col-md-6.style-mb-3
+          span.title-item buổi 4
+          .block-grub(data-set-height2='', style='height: 264px;')
+            ul.list-unstyled.list-plus
+              li Quy trình bán hàng, đóng gói sản phẩm, chốt đơn, và thu tiền
+              li Remarketing bán lại và bán nhiều lần cho khách hàng
+              li Chiến lược nội dung chuyên sâu cho thị trường mục tiêu
+      .row
+        .col-md-12
+          span.title-item buổi 5
+          .block-grub
+            .col-md-6
+              ul.list-unstyled.list-plus
+                li Tổng kết và rà soát lại toàn bộ quy trình bán hàng online.
+                li Giao lưu, giải đáp thắc mắc của học viên với những giảng viên và những người đi trước.
+                li Thiết lập team để triển khai kiếm tiền khủng.
+            .col-md-6
+              p.color-yellow.text-uppercase
+                strong 1 THÁNG TRIỂN KHAI THỰC TẾ.
+              ul.list-unstyled.list-plus
+                li Sau 2 ngày học tập trung thì mỗi học viên được phân bổ về 1 team đang triển khai kinh doanh thực tế để học hỏi, áp dụng vào thực tế cho mô hình kinh doanh của riêng mình.
+                li Tổi thứ 5 hàng tuần Offline chia sẻ về các kỹ thuật Facebook Marketing, Cách giảm chi phí quảng cáo, gia tăng đơn hàng, chăm sóc khách hàng và kinh nghiệm để tạo nên sự TỰ ĐỘNG HOÁ DOANH NGHIỆP.
+  .content5
+    .container
+      .row
+        .col-md-6
+          #mapGoogle
+        .col-md-6
+          h4.title THỜI GIAN & ĐỊA ĐIỂM
+          p.style-item + Thời gian:
+          p Học thử: 18h00 - 21h00, Thứ 7,  Ngày 18 Tháng 03 Năm 2017.
+          p Khóa chính thức: 18h00 - 21h00, Thứ 7 ngày 15/04/2017 và CN ngày 16/04/2017.
+          p.style-item + Địa điểm:
+          p Vissai Hotel, 144, Nguyễn Văn Trỗi, Phường 8, Phú Nhuận, Tp.HCM
+  footer.footer
+    .footer-top
+      .container
+        .phone-block
+          span.circle-border
+          span.circle-fill
+          .phone-area-img
+            a(href='tel:0888.116.618', title='')
+              img(src='/assets/images/phone-call.png', alt='')
+        .block-register(style='opacity: 1;')
+          a#totop.totop(href='/#', title='go to top')
+            i
+          p HOTLINE : 0888.116.618
+          a.area-triangle.regis(href='#', title='Đăng Ký Ngay')
+            i
+            | Đăng ký ngay
+        .row.edit-style
+          .col-md-2.col-sm-2.col-xs-3
+            a.pull-right(title='Khởi Nghiệp Online', href='/#')
+              img.img-responsive(alt='Khởi Nghiệp Online', src='/assets/images/knol.png')
+          .col-md-5.address.col-sm-5.col-xs-9
+            p HOTLINE : 08 8811 6618 - 0909.983.304
+            p KHỞI NGHIỆP ONLINE  . VN
+            p Trụ sở : Tầng 46 tòa nhà Bitexco Financial , số 2 Hải Triều , Q1, Tp.HCM
+            p Vp: 19C  Cộng Hòa , P.12 , Q.Tân Bình , Tp.HCM
+          .col-md-5.col-sm-5.area-fb.col-xs-12
+            a.icon-fb(href='https://facebook.com/buitanbao', title='Khởi Nghiệp Online')
+              img.img-responsive(alt='Khởi Nghiệp Online', src='/assets/images/f.png')
+            .fb-coment
+              .fb-comments.fb_iframe_widget(data-href='https://facebook.com/buitanbao', data-width='300', data-height='200', data-numposts='1', fb-xfbml-state='rendered')
+                div(style='height: 177px; width: 320px;')
+                  .fb-comments(data-href='https://www.facebook.com/buitanbao', data-numposts='5')
+    .footer-bottom
+      .container
+        .row
+          .col-md-12
+            p Bản quyền © 2017 Khởi nghiệp Online
